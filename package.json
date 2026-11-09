@@ -1,0 +1,28 @@
+{
+  "name": "dsh-schedule-admin",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cross-session scheduled-task tools: list all sessions' tasks, update title/prompt, delete with a confirm gate.",
+  "license": "MIT",
+  "author": "wdz211",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdz211/dsh-schedule-admin.git"
+  },
+  "homepage": "https://github.com/wdz211/dsh-schedule-admin#readme",
+  "bugs": {
+    "url": "https://github.com/wdz211/dsh-schedule-admin/issues"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "test/"
+  ],
+  "scripts": {
+    "test": "node test/selftest.mjs"
+  }
+}
